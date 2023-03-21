@@ -1,0 +1,12 @@
+groups:
+- name: pod_restart_alerts
+  rules:
+  - alert: PodRestart
+    expr: kubelet_pod_container_restarts_total{job="kubelet", namespace="<NAMESPACE>", pod="<POD_NAME>"} > 0
+    for: 1m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Pod {{ $labels.pod }} restarted"
+      description: "Pod {{ $labels.pod }} in namespace {{ $labels.namespace }} restarted {{ $value }} times in the last minute."
+

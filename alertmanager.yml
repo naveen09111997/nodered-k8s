@@ -1,0 +1,16 @@
+route:
+    group_by: [Alertname]
+    group_interval: 30s
+    repeat_interval: 30s
+    # Send all notifications to me.
+    receiver: email-me
+receivers:
+- name: email-me
+  email_configs:
+  - send_resolved: true
+    to: naveenkumar@iplon.in
+    from: naveenatharva.19@gmail.com
+    smarthost: smtp.gmail.com:587
+    auth_username: "naveenatharva.19@gmail.com"
+    auth_identity: "naveenatharva.19@gmail.com"
+    auth_password: "kettavan"

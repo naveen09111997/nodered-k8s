@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T07:59:44.872Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="n0LcaCdp05TsZXzEkswm" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T09:43:52.292Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qJz_rQ9JgyzqhgB3eG6g" version="21.1.2" type="github">
   <diagram name="Page-1" id="1mMZYaqLQDldF_lQ_OQn">
     <mxGraphModel dx="1434" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1P_mT2ijmxqJ2d6gl_XY-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="10" width="1350" height="500" as="geometry" />
+        </mxCell>
         <mxCell id="1P_mT2ijmxqJ2d6gl_XY-1" value="&lt;b&gt;Google &lt;/b&gt;Cloud Platform" style="fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;fontSize=14;align=left;spacing=10;9E9E9E;verticalAlign=top;spacingTop=-4;fontStyle=0;spacingLeft=40;html=1;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="140" width="570" height="340" as="geometry" />
         </mxCell>
@@ -133,6 +136,9 @@
         </mxCell>
         <mxCell id="1P_mT2ijmxqJ2d6gl_XY-61" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.epmmarshall.com/wp-content/uploads/2018/07/grafana-logo.png;" vertex="1" parent="1">
           <mxGeometry x="804.36" y="214" width="189.84" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="1P_mT2ijmxqJ2d6gl_XY-67" value="&lt;h1&gt;Infrastructure Grafana Monitoring for Bitrix&lt;/h1&gt;&lt;p&gt;Author: Naveen Kumar&lt;/p&gt;&lt;p&gt;version: V.01&lt;/p&gt;&lt;p&gt;Date: 31/03/2023&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="530" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

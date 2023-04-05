@@ -1,0 +1,20 @@
+version: '3'
+services:
+  promtail:
+    container_name: promtail
+    image: grafana/promtail:latest
+    ports:
+      - "9080:9080"
+    volumes:
+      - "/usr/local/bin/promtail-local-config.yaml:/usr/local/bin/promtail-config.yaml" 
+    command: -config.file=/usr/local/bin/promtail-config.yaml
+    network_mode: "host"
+    restart: always
+
+  node-exporter:
+    container_name: node-exporter
+    image: prom/node-exporter:latest
+    ports:
+      - 9100:9100
+    network_mode: host
+    restart: always  
